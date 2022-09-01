@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -126,7 +126,7 @@ namespace SC_Stealth_Detection_Range_Finder
                         }
                     }
                     // If all values are the same
-                    if (IR == CS && IR == EM)
+                    else if (IR == CS && IR == EM)
                     {
                         Range = IR;
 
